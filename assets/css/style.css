@@ -24,9 +24,9 @@ a{
 }
 
 .container{
-  height: 50vh;
+  height: 90vh;
   display: grid;
-  grid-template-rows: 25% 50% 25%;
+  grid-template-rows: 25% 40% 15%;
   max-width: 1280px;
   margin: 0 auto;
 }
@@ -66,7 +66,7 @@ a{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
   
 }
 
@@ -81,7 +81,15 @@ a{
 }
 
 .direccion{
-  font-size: 1.375rem;
+  font-size: 1.2rem;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.carta{
+  font-size: 1.6rem;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
 @media screen and (max-width: 300px) {
@@ -100,7 +108,6 @@ a{
 
   .direccion{
     font-size: 1.25rem;
-    padding-bottom: 80px;
   }
 
   .footer-content{
