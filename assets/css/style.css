@@ -72,7 +72,12 @@ a{
 
 .redes{
   font-family: 'SalmaAlfasans';
-  font-size: 0.75rem;
+  font-size: 1.0rem;
+}
+
+.email{
+  font-size: 0.8rem;
+  padding-top: 20px;
 }
 
 .redes p{
